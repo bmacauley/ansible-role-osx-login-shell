@@ -1,4 +1,4 @@
-osx_login_shell
+osx-login-shell
 ===============
 
 An Ansible role to set the login shell on OS X
@@ -36,13 +36,13 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - hnakamur.osx_login_shell
+         - hnakamur.osx-login-shell
 
 ### Example 2: with parameter
 
     - hosts: servers
       roles:
-         - { role: hnakamur.osx_login_shell, osx_login_shell_shell: '/usr/local/bin/zsh' }
+         - { role: hnakamur.osx-login-shell, osx_login_shell_shell: '/usr/local/bin/zsh' }
 
 License
 -------
